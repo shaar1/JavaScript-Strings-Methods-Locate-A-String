@@ -2,6 +2,7 @@
  // String 
  // IndexOf Räkna från början
  // lastIdexOf Räkan från sist
+ // Search att söker efter value som skriver och säga var ligar
 
  /*
 Syntax: indexOf (Value, Start Position ) // Default = 0
@@ -54,12 +55,35 @@ var myString = "Im In Love Whith JavaScript And In Love With PHP",
 console.log(myWord);
 */
 
-
+/*
 var myString = "Im In Love Whith JavaScript And In Love With PHP",
 
     myWord = myString.search("Love");
 
 console.log(myWord);
+*/
+/*
+var myString = "Im In Love Whith JavaScript And In Love With PHP",
+
+    myWord = myString.search("LoveJavaScript");
+
+console.log(myWord);
+*/
+/*
+var myString = "Im In Love Whith JavaScript And In Love With PHP",
+
+    myWord = myString.search(/Love/);
+
+console.log(myWord);
+*/
+
+
+var myString = "Im In Love Whith JavaScript And In Love With PHP",
+
+    myWord = myString.search(/Love/);
+
+console.log(myWord);
+
 
 
 
