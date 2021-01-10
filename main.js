@@ -22,9 +22,9 @@ var myString = "Im In Love Whith JavaScript",
 console.log(myWord);
 */
 
-var myString = "Im In Love Whith JavaScript",
+var myString = "Im In Love Whith JavaScript And In Love With PHP",
 
-    myWord = myString.indexOf("Love", 0);
+    myWord = myString.indexOf("Love", 1);
 
 console.log(myWord);
 
