@@ -1,6 +1,7 @@
 /* gobal console, alert. prompt*/
  // String 
- // IndexOf
+ // IndexOf Räkna från början
+ // lastIdexOf Räkan från sist
 
  /*
 Syntax: indexOf (Value, Start Position ) // Default = 0
@@ -45,10 +46,18 @@ var myString = "Im In Love Whith JavaScript And In Love With PHP",
 
 console.log(myWord);
 */
-
+/*
 var myString = "Im In Love Whith JavaScript And In Love With PHP",
 
     myWord = myString.lastIndexOf("Love", 27);
+
+console.log(myWord);
+*/
+
+
+var myString = "Im In Love Whith JavaScript And In Love With PHP",
+
+    myWord = myString.search("Love");
 
 console.log(myWord);
 
