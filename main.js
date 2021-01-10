@@ -30,13 +30,27 @@ var myString = "Im In Love Whith JavaScript And In Love With PHP",
 
 console.log(myWord);
 */
-
+/*
 var myString = "Im In Love Whith JavaScript And In Love With PHP",
 
     myWord = myString.lastIndexOf("Love");
 
 console.log(myWord);
+*/
 
+/*
+var myString = "Im In Love Whith JavaScript And In Love With PHP",
+
+    myWord = myString.lastIndexOf("Love", 9);
+
+console.log(myWord);
+*/
+
+var myString = "Im In Love Whith JavaScript And In Love With PHP",
+
+    myWord = myString.lastIndexOf("Love", 27);
+
+console.log(myWord);
 
 
 
